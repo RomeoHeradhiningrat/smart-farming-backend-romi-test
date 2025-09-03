@@ -2,8 +2,8 @@ import requests
 import random
 import time
 
-# Ganti URL sesuai dengan Railway App URL setelah deploy
-URL = "http://switchyard.proxy.rlwy.net:59840/sensor"
+# Ganti sesuai dengan URL Railway kamu
+URL = "https://web-production-ecd56.up.railway.app/sensor"
 
 while True:
     data = {
